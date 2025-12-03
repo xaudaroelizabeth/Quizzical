@@ -1,22 +1,23 @@
 {
-  "name": "Scrim-s04vvhd",
-  "description": "https://scrimba.com/frontend-path-c0j/~0vh/s0j4m3494a/head",
+  "name": "Quizzical",
+  "version": "1.0.0",
+  "description": "Quizzical trivia app",
   "scripts": {
-    "watch": "webpack -w",
-    "build": "webpack"
+    "watch": "webpack --watch",
+    "build": "webpack --mode production"
   },
   "dependencies": {
-    "react": "19.2.1",
-    "react-dom": "19.2.1",
-    "html-entities": "2.6.0",
-    "clsx": "2.1.1",
-    "webpack": "^2.0"
+    "react": "^19.2.1",
+    "react-dom": "^19.2.1",
+    "html-entities": "^2.6.0",
+    "clsx": "^2.1.1"
   },
   "devDependencies": {
-  "webpack": "^5.0.0",
-  "babel-loader": "^8.0.0",
-  "@babel/core": "^7.0.0",
-  "@babel/preset-env": "^7.0.0",
-  "@babel/preset-react": "^7.0.0"
-}
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4",
+    "babel-loader": "^9.1.3",
+    "@babel/core": "^7.23.0",
+    "@babel/preset-env": "^7.23.1",
+    "@babel/preset-react": "^7.23.0"
+  }
 }

@@ -1,0 +1,25 @@
+{
+  "name": "Scrim-s04vvhd",
+  "description": "https://scrimba.com/frontend-path-c0j/~0vh/s0j4m3494a/head",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve --open",
+    "watch": "webpack -w",
+    "build": "webpack"
+  },
+  "dependencies": {
+    "clsx": "2.1.1",
+    "html-entities": "2.6.0",
+    "react": "19.2.1",
+    "react-dom": "19.2.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^10.0.0",
+    "webpack": "^5.103.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.2.2"
+  }
+}
